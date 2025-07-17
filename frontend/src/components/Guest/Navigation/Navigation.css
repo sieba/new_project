@@ -1,0 +1,165 @@
+nav{
+    position: fixed;
+    z-index: 11;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.2rem;
+    background-color: #2d1515;
+    color: white;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    gap: .3rem;
+}
+.house_icon{
+    font-size: 1.3rem;
+    color: orange;
+}
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: dancing-script, cursive;
+}
+.logo h1 span {
+    color: orange;
+        font-family: dancing-script, cursive;
+
+}
+nav .links {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+nav .links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav .links a.active{
+    color: orange;
+    font-weight: bold;
+}
+nav .links  a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+nav .search {
+    display: flex;
+    align-items: center;
+}
+nav .search input {
+    padding: .5rem 1rem;
+    font-size: 16px;
+    border: 1px solid orange !important;
+}
+nav .search button {
+    padding: .5rem 1rem;
+    font-size: 16px;
+    background-color: orange !important;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+nav .search button:active {
+    background-color: #fff !important;
+}
+nav .search input:focus {
+    outline: none;
+    border: 2px solid #555;
+}
+nav .search input::placeholder {
+    color: #aaa;
+}
+nav .search input:focus::placeholder {
+    color: #555;
+}
+nav .search input[type="text"] {
+    width: 200px;
+}
+nav .search input[type="text"]:focus {
+    width: 300px;
+    transition: width 0.3s ease;
+}
+nav .search input[type="text"]::placeholder {
+    transition: color 0.3s ease;
+}
+nav .search input[type="text"]:focus::placeholder {
+    color: #555;
+}
+nav .search button {
+    margin-left: 10px;
+}
+nav .search button:hover {
+    background-color: #777;
+}
+nav .search input[type="text"] {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+nav .search input[type="text"]:focus {
+    border-color: #555;
+}
+nav .search input[type="text"]::placeholder {
+    color: #aaa;
+}
+nav .search input[type="text"]:focus::placeholder {
+    color: #555;
+}
+nav .search button {
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+nav .search button:hover {
+    background-color: #777;
+}
+nav .search button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+nav .search input[type="text"] {
+    width: 200px;
+    transition: width 0.3s ease;
+}
+nav .search input[type="text"]:focus {
+    width: 300px;
+}
+nav .user {
+    display: flex;
+    align-items: center;
+}
+nav .user{
+    position: relative;
+    gap: 1rem;
+}
+nav .user a{
+    background-color: orange;
+    color: #fff;
+    padding: .5rem 1rem;
+    border-radius: .3rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav .user a:active {
+    background-color: #fff;
+}
+/* USER PROFILE */
+nav .user_profile{
+    position: relative;
+}
+nav .user_profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}

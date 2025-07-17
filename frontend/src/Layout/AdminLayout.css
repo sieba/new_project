@@ -1,0 +1,61 @@
+.admin-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.admin-header {
+  background-color: #1e1e2f;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.admin-body {
+  display: flex;
+  flex: 1;
+}
+
+.admin-sidebar {
+  position: relative;
+  width: 250px;
+  background-color: #2a2a40;
+  padding: 1rem;
+  color: white;
+}
+
+.admin-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.admin-sidebar li {
+  margin-bottom: 10px;
+}
+
+.admin-sidebar a {
+  color: white;
+  text-decoration: none;
+}
+
+.admin-sidebar a:hover {
+  text-decoration: underline;
+}
+
+.admin-content {
+  flex: 1;
+  padding: 1rem;
+}
+
+
+
+
+
+/* ASIDE STYLE */
+.admin_navbar{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  text-align: left;
+}

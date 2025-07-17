@@ -1,0 +1,35 @@
+/* RIGHT CONTENT STYLE */
+.right_panel {
+  flex: 1;
+  padding: 3rem;
+  /* background-color: #f4f4f4; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.right_panel h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  z-index: 11;
+}
+.right_panel p {
+  font-size: 1.1rem;
+  color: #fff;
+  z-index: 11;
+}
+.hotel_image {
+  width: 100%;
+  margin-top: 1rem;
+  border-radius: 8px;
+}
+.testimonial {
+  margin-top: 1.5rem;
+  font-style: italic;
+  color: #fff;
+  border-left: 4px solid #ccc;
+  padding-left: 1rem;
+  z-index: 11;
+}
+

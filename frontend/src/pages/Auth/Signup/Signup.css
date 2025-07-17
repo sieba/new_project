@@ -1,0 +1,186 @@
+.exit_button{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 4;
+    color: orange;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.signup_container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0 0rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.signup_container::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0; 
+    background: rgba(0, 0, 0, 0.6);
+}
+.form_container {
+    position: relative;
+    max-width: 900px;
+    min-width: 500px;
+    height: 100%;
+    background: rgba(42, 10, 10, 0.6); /* Semi-transparent maroon */
+    backdrop-filter: blur(10px);      /*  blur */
+    display: flex;
+    align-items: center;
+    border: 1px solid #333;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    resize: horizontal;  /* allows horizontal resizing */
+    overflow: auto;       /* required for resize to work */
+}
+
+.form_container .input_field{
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: start;
+    line-height: 2rem;
+}
+.form_container h1{
+    font-size: 1.5rem;
+    color: orange;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.form_container p{
+    color: #fff
+}
+.form_container .input_field label{
+    margin-top: .5rem;
+    color: #fff;
+}
+.form_container button,
+.form_container .input_field input{
+    padding: .3rem 1rem;
+    border: none;
+    width: 100%;
+    border-radius: .1rem;
+}
+.form_container button{
+    margin-top: 1.5rem;
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: .1rem;
+    background: orange;
+}
+.form_container button:active{
+    background-color: #555;
+}
+.signup_footer{
+    margin-top: 2rem;
+    color: #fff;
+}
+.signup_footer a{
+    color: orange;
+}
+
+
+/* INPUT VALIDATION STYLE */
+.form_container .error_message{
+    color: #ff3006;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    text-align: left;
+    margin-bottom: -.5rem;
+    width: 100%;
+}
+
+.form_container .input_field .input_error{
+    border: 1px solid #ff3006;
+    background-color: rgba(255, 48, 6, 0.1);
+}
+
+
+/* RIGHT CONTENT BULDING STYLE */
+.content_right{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.content_right .sigup_bulding{
+    color: rgb(204, 141, 26);
+    font-size: 8rem;
+    z-index: 1;
+}
+.text_content .title{
+      text-align: left;
+      font-size: 4rem;
+      color: orange;
+      border-bottom: 2px solid orange;
+}
+/* RIGHT CONTENT STYLE*/
+.right__panel {
+  display: flex;
+  flex: 1;
+  height: 100%;
+  padding: 8rem 2rem;
+  background-clip: calc(15);
+  background-color: #f9f9f9;
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+}
+
+.right__panel h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #1c1c1c;
+}
+
+.right__panel p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+.right__panel ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 1.5rem;
+}
+
+.right__panel ul li {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.highlight__box {
+  background-color: #fff4db;
+  border-left: 5px solid #ffae00;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  color: #7a4e00;
+}
+
+.signup__quote {
+  font-style: italic;
+  color: #777;
+  border-left: 4px solid #ccc;
+  padding-left: 1rem;
+  margin-top: auto;
+}
+

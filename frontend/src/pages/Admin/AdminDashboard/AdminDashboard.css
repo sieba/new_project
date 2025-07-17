@@ -1,0 +1,23 @@
+.admin_dahboard{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    text-align: left;
+    flex-direction: column;
+    padding: 5rem;
+}
+.admin_dahboard .admin_data{
+    position: relative;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+}
+.admin_dahboard .admin_data p:nth-child(1) span{
+    color: red ;
+}
+.admin_dahboard .admin_data p:nth-child(2) span{
+    color: green ;
+}
